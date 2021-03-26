@@ -2,9 +2,11 @@ name: RSS Porter
 on: 
   schedule:
     - cron: '* * * * *'
+#env:
+#  TZ: Asia/Shanghai
 
 jobs:
-    daily:
+    search-and-push:
         runs-on: ubuntu-latest
         steps:
         - name: Install Go

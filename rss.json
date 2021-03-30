@@ -1,6 +1,10 @@
 {
   "rss_info": [
     {
+      "title": "Better world by better software",
+      "url": "https://glebbahmutov.com/blog/atom.xml",
+    },
+    {
       "title": "阮一封的网络日志",
       "url": "http://www.ruanyifeng.com/blog/atom.xml"
     },

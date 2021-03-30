@@ -74,6 +74,7 @@ func GetPostInfo(rss RssInfo) []string {
 
 	fp := gofeed.NewParser()
 	feed, err := fp.ParseURL(rss.Url)
+	fmt.Print(feed.Items)
 	if err != nil {
 		fmt.Print(err.Error())
 	} else {

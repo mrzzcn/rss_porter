@@ -1,4 +1,4 @@
-name: RSS Porter
+name: RSS Porter 1
 on:
   schedule:
     - cron: '* */4 * * *'

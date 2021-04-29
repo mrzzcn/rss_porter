@@ -1,8 +1,5 @@
 name: RSS Porter
-on: 
-  push: 
-    branches: 
-    - master
+on:
   schedule:
     - cron: '* */4 * * *'
 #env:

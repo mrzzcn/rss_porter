@@ -1,7 +1,7 @@
 name: RSS Porter 1
 on:
   schedule:
-    - cron: '* */4 * * *'
+    - cron: '0 */4 * * *'
 #env:
 #  TZ: Asia/Shanghai
 
